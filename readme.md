@@ -12,20 +12,14 @@
 
 快速开始（Windows + PowerShell）
 
-1) 切换到项目目录：
-
-```powershell
-cd D:\04_Learn\AI\Projects\LawRag
-```
-
-2) 创建并激活 conda 环境（建议 Python 3.10）：
+1) 创建并激活 conda 环境（建议 Python 3.11）：
 
 ```powershell
 conda create -n law-env python=3.11 -y
 conda activate law-env
 ```
 
-3) 安装运行所需依赖（示例）：
+2) 安装运行所需依赖（示例）：
 
 ```powershell
 pip install --upgrade pip
@@ -64,6 +58,10 @@ pip install hnswlib faiss-cpu
 ```powershell
 streamlit run .\main.py
 ```
+
+7) 数据来源
+data数据来源：http://www.npc.gov.cn/npc/c2/c30834/201905/t20190521_296651.html
+
 
 打开浏览器访问 http://localhost:8501 查看界面。
 
